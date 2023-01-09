@@ -1,0 +1,18 @@
+{
+    "basket_size": 10,
+    "epochs": 300,
+    "training_sample": "neuro.csv",
+    "sampling_training_set_from_unique_values": true,
+    "expand_unique_training_set_to_initial_length": false,
+    "model": {
+        "type": "FNN",
+        "amount_hidden_neurons": [80,80,60],
+        "nonlin_output_func": "None",
+        "loss_func": "CrossEntropyLoss"
+    },
+    "learning_rate": {
+        "type": "MultiStepLR"
+    },
+    "show_loss_plot": true,
+    "show_validation_accuracy_plot": true
+}

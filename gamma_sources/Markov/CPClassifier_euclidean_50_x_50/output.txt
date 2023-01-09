@@ -1,0 +1,2 @@
+trained time: 37 min
+success rate: 0.66928

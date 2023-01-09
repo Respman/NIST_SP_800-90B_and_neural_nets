@@ -1,0 +1,20 @@
+{
+    "basket_size": -1,
+    "epochs": -1,
+    "training_sample": "neuro.csv",
+    "sampling_training_set_from_unique_values": false,
+    "model": {
+        "type": "CPClassifier",
+        "x_dim": 35,
+        "y_dim": 35,
+        "metric": "euclidean",
+        "learning_rate": 0.01,
+        "creating_method": "load",
+        "file_with_model": "trained_som.npy"
+    },
+    "plot_map_by_difference": true,
+    "file_to_save_diff_map": "CPC_difference.png",
+    "file_to_save_projected_data": "CPC_projected.npy",
+    "net_projection": true,
+    "file_to_save_net_projection": "CPC_net_projection.png"
+}

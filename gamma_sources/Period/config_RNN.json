@@ -1,0 +1,18 @@
+{
+    "basket_size": 100,
+    "epochs": 5,
+    "training_sample": "gamma_20.csv",
+    "sampling_training_set_from_unique_values": false,
+    "model": {
+        "type": "RNN",
+        "amount_of_recurrent_layers": 1,
+        "amount_of_hidden_neurons": 10,
+        "bidirectional": false,
+        "loss_func": "CrossEntropyLoss"
+    },
+    "learning_rate": {
+        "type": "MultiStepLR"
+    },
+    "show_loss_plot": true,
+    "show_validation_accuracy_plot": true
+}

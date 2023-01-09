@@ -1,0 +1,16 @@
+{
+    "basket_size": 100,
+    "epochs": 20,
+    "training_sample": "neuro.csv",
+    "sampling_training_set_from_unique_values": false,
+    "model": {
+        "type": "ResNet",
+        "amount_hidden_layers": 5,
+        "loss_func": "CrossEntropyLoss"
+    },
+    "learning_rate": {
+        "type": "MultiStepLR"
+    },
+    "show_loss_plot": true,
+    "show_validation_accuracy_plot": true
+}

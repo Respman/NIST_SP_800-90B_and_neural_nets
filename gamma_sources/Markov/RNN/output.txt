@@ -1,0 +1,3 @@
+training set relation: 0.68451125
+test set relation: 0.684945
+entropy: 0.545939948292931

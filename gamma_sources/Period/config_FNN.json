@@ -1,0 +1,17 @@
+{
+    "basket_size": 100,
+    "epochs": 10,
+    "training_sample": "gamma_20.csv",
+    "sampling_training_set_from_unique_values": false,
+    "model": {
+        "type": "FNN",
+        "amount_hidden_neurons": [100],
+        "nonlin_output_func": "None",
+        "loss_func": "CrossEntropyLoss"
+    },
+    "learning_rate": {
+        "type": "MultiStepLR"
+    },
+    "show_loss_plot": true,
+    "show_validation_accuracy_plot": true
+}
